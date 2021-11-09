@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FC BARCELONA</string>
+    <string name="intro">  \t\n Hi CULERS!!\n\n
+        Futbol Club Barcelona, commonly referred to as Barcelona and colloquially known as Barça, is a Spanish professional football club based in Barcelona, Spain, that competes in La Liga, the top flight of Spanish football.
+
+Founded in 1899 by a group of Swiss, Spanish, German and English footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto "Més que un club" ("More than a club"). Unlike many other football clubs, the supporters own and operate Barcelona. It is the fourth-most valuable sports team in the world, worth $4.06 billion, and the worlds richest football club in terms of revenue, with an annual turnover of €840.8 million. The official Barcelona anthem is the "Cant del Barça", written by Jaume Picas and Josep Maria Espinàs. Barcelona traditionally play in dark shades of blue and red stripes, leading to the nickname Blaugrana.\n\n
+
+ince its inception in 1929, along with Athletic Bilbao and Real Madrid. In 2009, Barcelona became the first Spanish club to win the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League, and also became the first Spanish football club to win six out of six competitions in a single year, by also winning the Spanish Super Cup, UEFA Super Cup, and FIFA Club World Cup. In 2011, the club became European champions again and won five trophies.\n\n This Barcelona team, which won fourteen trophies in just four years under Pep Guardiola, is considered by some in the sport to be the greatest team of all time. By winning their fifth Champions League trophy in 2015, Barcelona became the first European football club in history to achieve the continental treble twice. The highest paid sports team in the world, in 2018 Barcelona became the first sports team with average first-team pay in excess of £10 million ($13.8 million) per year.</string>
+    <string name="fun">Welcome culers, lets have some fun by testing your knowlage about our players, please choose the position you love to play in or you just like:</string>
+
+    <string-array name="positions">
+        <item>Goal Keeper</item>
+        <item>Defender</item>
+        <item>Midfielder</item>
+        <item>Attacker</item>
+    </string-array>
+
+    <string-array name="gk">
+        <item>Vector Valdes</item>
+        <item>Ter Shtgen</item>
+        <item>Claudio Brave</item>
+    </string-array>
+
+    <string-array name="att">
+        <item>Leo Messi</item>
+        <item>Samuail Etto</item>
+        <item>Luis Suarez</item>
+    </string-array>
+
+
+</resources>

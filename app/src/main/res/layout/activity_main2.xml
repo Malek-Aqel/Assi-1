@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="0dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:background="#8A0D0D"
+                android:padding="5dp"
+                android:text='"Més que un club"'
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fun"
+                android:layout_gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#0E1435"
+                android:dropDownSelector="@android:drawable/arrow_down_float"
+                android:entries="@array/positions"
+                android:foregroundTint="#090933"
+                android:spinnerMode="dropdown"
+                android:paddingTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <ListView
+        style="@style/list"
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/testThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"
+        android:onClick="testThreadBtn_Click"
+        android:text="Thread Test" />
+</LinearLayout>

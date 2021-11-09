@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".action">
+
+
+    <TextView
+        android:id="@+id/about_gks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi culers again !!"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#8A0D0D"/>
+
+    <TextView
+        android:id="@+id/gk_talk"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.2"
+        android:text="\tThis is some of our best attackers in our club history, They are all contribute in many trophies to the club, and the all have our respect and all love. You can click anyone of these names to view some Info about them."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ListView
+        style="@style/list"
+        android:id="@+id/att_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/att"/>
+</LinearLayout>

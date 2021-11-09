@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style">
+        <item name="android:background">#00FF00</item>
+    </style>
+
+    <style name="list">android:dividerHeight
+        <item name="android:divider">#8A0D0D</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+</resources>
